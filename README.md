@@ -20,20 +20,19 @@
 
 ## 簡介
 
-由於原本常用的***request***[^1]跟****request-parmire***[^2]已不在維護，<br>
+由於原本常用的***request***[^1]跟***request-parmire***[^2]已不在維護，<br>
 且原生http的request還要另外處理非同步的部分，<br>
-所以這邊改使用替代方案也是目前網路上最推崇的套件，也就是axios.
-<br>
-這邊可以使用[nodejs-express-rest-api](https://github.com/RC-Dev-Tech/nodejs-async-await)範例做為api的發送對象.<br>
-axios回傳的物件是Promise(fulfilled狀態)物件，所以我們可以用.then和.catch去處理成功和失敗結果。<br>
-<br>
+所以這邊改使用替代方案也是目前網路上最推崇的套件，也就是axios.<br>
+- axios回傳的物件是Promise(fulfilled狀態)物件，所以我們可以用.then和.catch去處理成功和失敗結果。<br>
+
+> 這邊的範例可以搭配[nodejs-express-rest-api](https://github.com/RC-Dev-Tech/nodejs-async-await)範例做為api的發送對象來使用.<br>
 
 實作範例:
-- [Example1](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example1.ts) - axios的基本用法.
-- [Example2](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example2.ts) - axios GER/POST使用.
-- [Example3](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example3.ts) - 非同步應用 async/await.
-- [Example4](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example3.ts) - 非同步多請求應用 Promise.all.
-- [Example5](https://github.com/RC-Dev-Tech/nodejs-http-request/blob/main/src/examples/example3.ts) - 非同步多請求應用 axios.all & axios.spread.
+- [Example1](https://github.com/RC-Dev-Tech/nodejs-axios/blob/main/src/examples/example1.ts) - axios的基本用法.
+- [Example2](https://github.com/RC-Dev-Tech/nodejs-axios/blob/main/src/examples/example2.ts) - axios GER/POST使用.
+- [Example3](https://github.com/RC-Dev-Tech/nodejs-axios/blob/main/src/examples/example3.ts) - 非同步應用 async/await.
+- [Example4](https://github.com/RC-Dev-Tech/nodejs-axios/blob/main/src/examples/example4.ts) - 非同步多請求應用 Promise.all.
+- [Example5](https://github.com/RC-Dev-Tech/nodejs-axios/blob/main/src/examples/example5.ts) - 非同步多請求應用 axios.all & axios.spread.
 
 ---
 <br>
