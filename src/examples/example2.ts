@@ -25,7 +25,7 @@ export class Example2 {
         const config = {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'XXX_ACCESS_TOKEN' 
+                'Authorization': 'Bearer <ACCESS_TOKEN>' 
             }
         };
 
