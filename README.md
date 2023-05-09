@@ -1,11 +1,12 @@
 # ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) NodeJs - axios
 > ##### 理論請自行找，網路上有很多相關的文章，這邊只關注於範例實作的部分.
 
-<br>
+---
 
 <!--ts-->
-## 目錄
+## 目錄:
 * [簡介](#簡介)
+* [實作範例](#實作範例)
 * [Config參數說明](#Config參數說明)
 * [使用套件](#使用套件)
 * [操作說明](#操作說明)
@@ -16,9 +17,8 @@
 <!--te-->
 
 ---
-<br>
 
-## 簡介
+## 簡介:
 
 由於原本常用的***request***[^1]跟***request-parmire***[^2]已不在維護，<br>
 且原生http的request還要另外處理非同步的部分，<br>
@@ -27,7 +27,9 @@
 
 > 這邊的範例可以搭配[nodejs-express-rest-api](https://github.com/RC-Dev-Tech/nodejs-async-await)範例做為api的發送對象來使用.<br>
 
-實作範例:
+---
+
+## 實作範例:
 - [Example1](https://github.com/RC-Dev-Tech/nodejs-axios/blob/main/src/examples/example1.ts) - axios的基本用法.
 - [Example2](https://github.com/RC-Dev-Tech/nodejs-axios/blob/main/src/examples/example2.ts) - axios GER/POST使用.
 - [Example3](https://github.com/RC-Dev-Tech/nodejs-axios/blob/main/src/examples/example3.ts) - 非同步應用 async/await.
@@ -35,9 +37,8 @@
 - [Example5](https://github.com/RC-Dev-Tech/nodejs-axios/blob/main/src/examples/example5.ts) - 非同步多請求應用 axios.all & axios.spread.
 
 ---
-<br>
 
-## Config參數說明
+## Config參數說明:
 ```javascript
 {
     // url 為必填
@@ -78,46 +79,43 @@
 ```
 
 ---
-<br>
 
-## 使用套件.
+## 使用套件:
 - axios
 
 ---
-<br>
 
-## 操作說明.
+## 操作說明:
 #### 1. 安裝套件[^3]
 > npm install --save
 #### 2. 編譯 & 運行
 > npm run start
 
 ---
-<br>
 
-## 切換範例
+## 切換範例:
 > 編輯在app.json中的"exsample_mode"，填入的數字代表第幾個範例.
 
 ---
-<br>
 
-## 延伸項目
+## 延伸項目:
 * [NodeJs 系列實作](https://github.com/RC-Dev-Tech/nodejs-index) <br>
 
 ---
-<br>
 
-## 參考資料
+## 參考資料:
 * [github - axios](https://github.com/axios/axios) <br>
 * [axios 基本使用 & Config](https://ithelp.ithome.com.tw/articles/10212120) <br>
 * [JavaScript基本功修練：axios基本語法與練習(GET、POST請求)](https://ithelp.ithome.com.tw/articles/10253259) <br>
 
-
 ---
+
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
+
 ---
+
 ## 備註：
 [^1]: [npm request](https://www.npmjs.com/package/request) 已於2020年2月起，停止維護，並不在推薦使用.
 [^2]: [npm request-promise](https://www.npmjs.com/package/request-promise) 已於2020年2月起，停止維護，並不在推薦使用.
